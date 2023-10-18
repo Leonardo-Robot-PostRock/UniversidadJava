@@ -15,5 +15,12 @@ public class HolaMundo {
         miVariableCadena = "Mendoza";
 
         System.out.println(miVariableCadena);
+
+        var miVariableEntera2 = 15;
+
+        System.out.println(miVariableEntera2);
+
+        var miVariableCadena2 = "Buenos Aires";
+        System.out.println("miVariableCadena2 = " + miVariableCadena2);
     }
 }
