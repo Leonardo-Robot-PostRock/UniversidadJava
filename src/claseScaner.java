@@ -14,5 +14,6 @@ public class claseScaner {
         System.out.println("Escribe el título: ");
         var titulo = consola.nextLine();
         System.out.println("Resultado: " + titulo + " " + usuario);
+
     }
 }
