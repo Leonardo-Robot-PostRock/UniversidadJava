@@ -36,5 +36,20 @@ public class tiposPrimitivos {
         System.out.println("númeroLong  = " + numeroLong);
         System.out.println("Valor mínimo long: " + Long.MIN_VALUE);
         System.out.println("Valor mínimo long: " + Long.MAX_VALUE);
+
+        //Tipos primitivos flotantes
+        //Pérdida de precisión
+//        float numeroFloat = (float) 3.4028236E38D;
+        float numeroFloat = (float) 3.4028235E38D;
+        System.out.println("numeroFloat: " + numeroFloat);
+        System.out.println("valor mínimo tipo float: " + Float.MIN_VALUE);
+        System.out.println("valor máximo tipo float: " + Float.MAX_VALUE);
+
+        double numeroDouble = 1.7976931348623157E308;
+        //double numeroDouble = 1.7976931348623157E308D;
+        System.out.println("numeroDouble: " + numeroDouble);
+        System.out.println("valor mínimo tipo double: " + Double.MIN_VALUE);
+        System.out.println("valor máximo tipo double: " + Double.MAX_VALUE);
+
     }
 }
