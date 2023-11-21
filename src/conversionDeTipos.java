@@ -17,5 +17,14 @@ public class conversionDeTipos {
         edad = Integer.parseInt(consola.nextLine());
         System.out.println("edad = " + edad);
         
+        var edadTexto = String.valueOf(edad);
+        System.out.println("edadTexto = " + edadTexto);
+        
+        var caracter = "hola".charAt(0);
+        System.out.println("caracter = " + caracter);
+
+        System.out.println("Proporciona un caracter:");
+        caracter = consola.nextLine().charAt(0);
+        System.out.println("caracter = " + caracter);
     }
 }
