@@ -1,7 +1,7 @@
 package src;
 
 //Mi clase en Java
-public class HolaMundo {
+public class EjercicioIfElse {
 
     public static void main(String args[]) {
         var condicion = true;
