@@ -1,4 +1,4 @@
-package src;
+package src.palabrathis;
 
 public class PalabraThis {
 }

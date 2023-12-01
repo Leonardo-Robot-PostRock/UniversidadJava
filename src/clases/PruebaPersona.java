@@ -1,4 +1,4 @@
-package clases;
+package src.clases;
 
 public class PruebaPersona {
     public static void main(String[] args) {

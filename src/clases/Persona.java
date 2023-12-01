@@ -1,4 +1,4 @@
-package clases;
+package src.clases;
 
 public class Persona {
     //Atributos de la clase

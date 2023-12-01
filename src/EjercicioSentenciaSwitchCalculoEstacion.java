@@ -1,6 +1,7 @@
+package src;
 
 //Mi clase en Java
-public class HolaMundo {
+public class EjercicioSentenciaSwitchCalculoEstacion {
 
     public static void main(String args[]) {
         var mes = 4;

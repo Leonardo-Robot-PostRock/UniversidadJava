@@ -1,6 +1,6 @@
 package src;
 
-public class HolaMundo {
+public class variables {
     public static void main(String[] args) {
         int miVariableEntera = 10;
         System.out.println(miVariableEntera);
