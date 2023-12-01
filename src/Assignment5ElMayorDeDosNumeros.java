@@ -3,8 +3,6 @@ package src;
 import java.util.Scanner;
 
 public class Assignment5ElMayorDeDosNumeros {
-
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Proporciona el numero1:");
