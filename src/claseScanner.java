@@ -2,7 +2,7 @@ package src;
 //Dentro del paquete útil va importar la clase Scanner para poder utilizarla
 import java.util.Scanner;
 
-public class claseScaner {
+public class claseScanner {
     public static void main(String[] args) {
         System.out.println("Escribe tu nombre:");
         //Leer información de la consola
