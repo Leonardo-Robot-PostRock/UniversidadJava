@@ -28,7 +28,7 @@ public class Empleado extends Persona {
         StringBuilder sb = new StringBuilder();
         sb.append("Empleado{idEmpleado=").append(this.idEmpleado);
         sb.append(", sueldo=").append(this.sueldo);
-        sb.append(", ").append(super.toString()).append("}");
+        sb.append(", ").append(super.toString());
         sb.append('}');
         return sb.toString();
     }
