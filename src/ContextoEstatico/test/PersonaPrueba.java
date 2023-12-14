@@ -23,4 +23,11 @@ public class PersonaPrueba {
     public static void imprimirStatic(Persona persona){
         System.out.println("persona = " + persona);
     }
+
+    //RESUMEN
+
+//    El contexto estático hemos dicho que no puede acceder al contexto dinámico debido a que el contexto
+//    estático se relaciona con las clases y todavía no hemos creado objetos, así que el contexto estático
+//    no puede acceder al contexto dinámico y el contexto dinámico tiene que ver con los objetos y por lo
+//    tanto el operador THIS tiene que ver con el contexto dinámico, es decir, cuando ya creamos objetos.
 }
