@@ -52,7 +52,6 @@ public class Cliente extends Persona {
         sb.append(", fechaRegistro=").append(fechaRegistro);
         sb.append(", isVip=").append(isVip);
         sb.append(", ").append(super.toString()).append("}");
-        sb.append('}');
         return sb.toString();
     }
 }
