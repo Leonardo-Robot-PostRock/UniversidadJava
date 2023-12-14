@@ -1,4 +1,4 @@
-package src.Herencia;
+package src.Herencia.domain;
 
 public class Persona {
     protected String nombre;
