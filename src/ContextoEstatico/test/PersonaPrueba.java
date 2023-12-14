@@ -8,9 +8,19 @@ public class PersonaPrueba {
         //Por otro lado no se puede acceder a ningun método que no sea estático.
         //Por otro lado un método dinámico si puede acceder a un método estático ya que este ha sido creado.
         Persona persona1 = new Persona("Leonardo");
-        System.out.println("persona1 = " + persona1);
-        
         Persona persona2 = new Persona("Karla");
-        System.out.println("persona2 = " + persona2);
+
+        imprimirStatic(persona1);
+        imprimirStatic(persona2);
+    }
+
+    //Un método no estático no puede ser referenciado en un contexto estático.
+    //Para poder usarlo debería crear un objeto de tipo PersonaPrueba. Esto sucede porque el método está asociado al objeto.
+    public void imprimir(Persona persona){
+        System.out.println("persona = " + persona);
+    }
+
+    public static void imprimirStatic(Persona persona){
+        System.out.println("persona = " + persona);
     }
 }
