@@ -5,9 +5,17 @@ public class Empleado extends Persona {
     private double sueldo;
     private static int contadorEmpleado;
 
-    public Empleado(String nombre, double sueldo) {
-        super(nombre);
+    public Empleado(){
         this.idEmpleado = ++Empleado.contadorEmpleado;
+    }
+
+    public Empleado(String nombre, double sueldo) {
+        //super(nombre);
+        //Se llama el constructor vacío de arriba.
+        this();
+        //Se inicializa la variable nombre de la clase padre como si fuera de la clase hija.
+        this.nombre = nombre;
+        //this.idEmpleado = ++Empleado.contadorEmpleado;
         this.sueldo = sueldo;
     }
 
