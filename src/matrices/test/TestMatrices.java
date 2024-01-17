@@ -1,5 +1,7 @@
 package src.matrices.test;
 
+import src.matrices.domain.Persona;
+
 public class TestMatrices {
     public static void main(String[] args) {
         int edades[][] = new int[3][2];
@@ -24,9 +26,30 @@ public class TestMatrices {
 
         String frutas[][] = {{"Naranja", "Limon"}, {"Fresa", "Zarzamora", "Mora"}};
 
-        for (int i = 0; i < frutas.length; i++) {//renglones
-            for (int j = 0; j < frutas[i].length; j++) {//Columnas
-                System.out.println("Frutas " + i + "-" + j + ": " + frutas[i][j]);
+//        for (int i = 0; i < frutas.length; i++) {//renglones
+//            for (int j = 0; j < frutas[i].length; j++) {//Columnas
+//                System.out.println("Frutas " + i + "-" + j + ": " + frutas[i][j]);
+//            }
+//        }
+
+        Persona personas[][] = new Persona[2][3];
+        personas[0][0] = new Persona("Juan");
+        personas[0][1] = new Persona("Karla");
+        personas[0][2] = new Persona("Benjamín");
+
+        personas[1][0] = new Persona("Diego");
+        personas[1][1] = new Persona("Leonardo");
+        personas[1][2] = new Persona("Julieta");
+
+        imprimir(frutas);
+        imprimir(personas);
+
+    }
+
+    public static void imprimir(Object matriz[][]){
+        for (int i = 0; i < matriz.length; i++) {//renglones
+            for (int j = 0; j < matriz[i].length; j++) {//Columnas
+                System.out.println("Frutas " + i + "-" + j + ": " + matriz[i][j]);
             }
         }
     }
