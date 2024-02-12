@@ -4,6 +4,12 @@ public class TesEnumeraciones {
     public static void main(String[] args) {
         System.out.println("Dia 1: " + Days.MONDAY);
         indicarDiaDeLaSemana(Days.THURSDAY);
+
+        //Enumeración de continentes
+        System.out.println("Continente no. 4 " + Continentes.AMERICA);
+        System.out.println("Países en el 4to continente: " + Continentes.AMERICA.getPaises());
+        System.out.println("Continente no. 1 " + Continentes.AFRICA);
+        System.out.println("Países en el 1er continente: " + Continentes.AFRICA.getPaises());
     }
 
     private static void indicarDiaDeLaSemana(Days days) {
