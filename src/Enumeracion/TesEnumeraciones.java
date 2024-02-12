@@ -1,0 +1,34 @@
+package src.Enumeracion;
+
+public class TesEnumeraciones {
+    public static void main(String[] args) {
+        System.out.println("Dia 1: " + Days.MONDAY);
+        indicarDiaDeLaSemana(Days.THURSDAY);
+    }
+
+    private static void indicarDiaDeLaSemana(Days days) {
+        switch (days) {
+            case MONDAY:
+                System.out.println("Primer día de la semana");
+                break;
+            case TUESDAY:
+                System.out.println("Segundo día de la semana");
+                break;
+            case WEDNESDAY:
+                System.out.println("Tercer día de la semana");
+                break;
+            case THURSDAY:
+                System.out.println("Cuarto día de la semana");
+                break;
+            case FRIDAY:
+                System.out.println("Quinto día de la semana");
+                break;
+            case SATURDAY:
+                System.out.println("Sexto día de la semana");
+                break;
+            case SUNDAY:
+                System.out.println("Séptimo día de la semana");
+                break;
+        }
+    }
+}
