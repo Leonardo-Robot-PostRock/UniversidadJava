@@ -1,5 +1,4 @@
 package src.ModificadoresDeAcceso.defaultOpackage;
-package src.ModificadoresDeAcceso.defaultOpackage.ClaseDefault;
 
 public class TestModificadorDeAcceso {
     public static void main(String[] args) {
