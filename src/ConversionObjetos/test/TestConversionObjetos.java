@@ -1,6 +1,8 @@
 package src.ConversionObjetos.test;
 
-import src.ConversionObjetos.domain.*;
+import src.ConversionObjetos.domain.Empleado;
+import src.ConversionObjetos.domain.Escritor;
+import src.ConversionObjetos.domain.TipoEscritura;
 
 public class TestConversionObjetos {
     public static void main(String[] args) {
