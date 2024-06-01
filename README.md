@@ -2,3 +2,21 @@
 - Se profundizan conceptos de JAVA.
 - Se realizan ejercicios.
 - Se lee sobre memoria stack y heap
+- Profundización en literales, tipos envolventes y primitivos.
+- Polimorfismo y Sobreescritura
+- Herencia
+- Lecturas de abstracción sobre relaciones de agregación, asociación unidireccional y bidireccional y composición.
+- Profundización en contexto dinámico y estático.
+- Modificadores de Acceso
+- Autoboxing y unboxing
+- Arreglos
+- Matrices
+- Argumentos variables
+- Enumeraciones
+- Interfaces
+- Genéricos
+- Palabra final
+- Casteo de clases
+- Sobrecarga de métodos
+- Paquetes
+- Y más...
