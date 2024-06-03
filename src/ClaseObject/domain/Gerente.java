@@ -1,16 +1,17 @@
-package src.PalabraInstanceOf;
+package src.ClaseObject.domain;
 
 public class Gerente extends Empleado {
+    
     private String departamento;
-
-    public Gerente(String nombre, double sueldo, String departamento) {
+    
+    public Gerente(String nombre, double sueldo, String departamento){
         super(nombre, sueldo);
         this.departamento = departamento;
     }
-
+    
     @Override
-    public String obtenerDetalles() {
-        return super.obtenerDetalles() + ", departamento: " + this.departamento;
+    public String obtenerDetalles(){
+        return super.obtenerDetalles() + ", departamento:" + this.departamento;
     }
 
     public String getDepartamento() {
@@ -20,4 +21,7 @@ public class Gerente extends Empleado {
     public void setDepartamento(String departamento) {
         this.departamento = departamento;
     }
+    
+    
+    
 }
