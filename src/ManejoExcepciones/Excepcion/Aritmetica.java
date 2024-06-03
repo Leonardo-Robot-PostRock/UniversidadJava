@@ -9,4 +9,13 @@ public class Aritmetica {
 
         return numerador / denominador;
     }
+
+    //A diferencia del método division(...) el compilador no obliga a poner en la firma del método el tipo de Excepcion
+    //ya que es de tipo runtime exception.
+    public static int divisionV2(int numerador, int denominador) {
+        if (denominador == 0) {
+            throw new OperacionExceptionRuntimeException("Division entre cero");
+        }
+        return numerador / denominador;
+    }
 }
