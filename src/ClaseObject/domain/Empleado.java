@@ -36,6 +36,8 @@ public class Empleado {
         return "Empleado{" + "nombre=" + nombre + ", sueldo=" + sueldo + '}';
     }
 
+    //Los cálculos de métodos como equals y hashCode varía según el IDE.
+    //Estos métodos también pueden ser editados según a conveniencia.
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
