@@ -46,7 +46,6 @@ public class TestCollecciones {
         miMapa.put("valor1", "Leo");
         miMapa.put("valor2", "Luci");
         miMapa.put("valor3", "Batman");
-        miMapa.put("valor3", "Superman");//valor Superman de la llave valor3, reemplaza al de Batman.
 
         String elemento = (String) miMapa.get("valor1");
         System.out.println("elemento = " + elemento);
