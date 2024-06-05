@@ -37,6 +37,21 @@ public class TestCollecciones {
         miSet.add("Viernes");
 
         imprimir(miSet);
+
+        System.out.println("\n");
+
+        //No se hereda de la interface collection, se hereda de la interface Map.
+        //Llave - valor
+        Map miMapa = new HashMap();
+        miMapa.put("valor1", "Leo");
+        miMapa.put("valor2", "Luci");
+        miMapa.put("valor3", "Batman");
+
+        String elemento = (String) miMapa.get("valor1");
+        System.out.println("elemento = " + elemento);
+
+        imprimir(miMapa.keySet());
+        imprimir(miMapa.values());
     }
 
     public static void imprimir(Collection collection) {
