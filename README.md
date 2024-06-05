@@ -1,22 +1,29 @@
-**Este repositorio contiene apuntes de Universidad Java**
-- Se profundizan conceptos de JAVA.
-- Se realizan ejercicios.
-- Se lee sobre memoria stack y heap
-- Profundización en literales, tipos envolventes y primitivos.
-- Polimorfismo y Sobreescritura
-- Herencia
-- Lecturas de abstracción sobre relaciones de agregación, asociación unidireccional y bidireccional y composición.
-- Profundización en contexto dinámico y estático.
-- Modificadores de Acceso
-- Autoboxing y unboxing
-- Arreglos
-- Matrices
-- Argumentos variables
-- Enumeraciones
-- Interfaces
-- Genéricos
-- Palabra final
-- Casteo de clases
-- Sobrecarga de métodos
-- Paquetes
-- Y más...
+# 📚 Apuntes de Universidad Java
+> ¡Bienvenido/a a los apuntes de Universidad Java! Este repositorio está diseñado para ayudarte a profundizar en los conceptos clave del lenguaje de programación Java. Aquí encontrarás una serie de temas y ejercicios que te permitirán mejorar tus habilidades y conocimientos en Java.
+
+## Contenidos del Repositorio
+- 🚀 Fundamentos de Java
+- 📌 Conceptos Básicos de JAVA
+- 🔢 Literales, Tipos Envolventes y Primitivos
+- 🧠 Memoria Stack y Heap
+- 🧩 Programación Orientada a Objetos
+- 🌀 Polimorfismo y Sobreescritura
+- 🏷️ Herencia
+- 🔗 Relaciones de Agregación, Asociación y Composición
+- 🔄 Contexto Dinámico y Estático
+- 🛡️ Modificadores de Acceso
+- 🛠️ Técnicas Avanzadas
+- ↔️ Autoboxing y Unboxing
+- 🎭 Casteo de Clases
+- 🔄 Sobrecarga de Métodos
+- 🧮 Argumentos Variables
+- 🗂️ Estructuras de Datos
+- 📊 Arreglos
+- 🧮 Matrices
+- 📚 Conceptos Adicionales
+- 🎌 Enumeraciones
+- 🧩 Interfaces
+- 🌐 Genéricos
+- 🔒 Palabra final
+- 🗂️ Paquetes
+## 🌟 Y mucho más...
