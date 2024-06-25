@@ -15,7 +15,7 @@ El contexto estático en Java se refiere a todo lo que se resuelve en tiempo de 
    - Se inicializan una vez cuando la clase se carga en la memoria.
    - Son accesibles a través de la clase sin necesidad de crear una instancia de la clase.
 
-   ```java
+   ```
    public class Ejemplo {
        static int contador = 0;
 
@@ -30,7 +30,7 @@ El contexto estático en Java se refiere a todo lo que se resuelve en tiempo de 
     - No pueden acceder a variables de instancia o métodos no estáticos directamente.
     - Pueden ser llamados sin crear una instancia de la clase.
 
-   ```java
+   ```
    public class Ejemplo {
        static int contador = 0;
 
@@ -49,7 +49,7 @@ El contexto estático en Java se refiere a todo lo que se resuelve en tiempo de 
     - La sobrecarga de métodos se resuelve en tiempo de compilación.
     - La selección de qué método llamar depende del tipo de referencia en tiempo de compilación.
 
-   ```java
+   ```
    public class Ejemplo {
        public void metodo(int a) {
            System.out.println("Método con argumento int");
@@ -76,7 +76,7 @@ El contexto dinámico en Java se refiere a todo lo que se resuelve en tiempo de 
     - Pertenecen a una instancia específica de la clase.
     - Cada instancia de la clase tiene su propia copia de las variables de instancia.
 
-   ```java
+   ```
    public class Ejemplo {
        int contador = 0;
 
@@ -99,7 +99,7 @@ El contexto dinámico en Java se refiere a todo lo que se resuelve en tiempo de 
     - Permite a una clase derivada proporcionar una implementación específica de un método que ya está definido en su clase base.
     - La selección de qué método llamar depende del tipo del objeto en tiempo de ejecución.
 
-   ```java
+   ```
    class Animal {
        public void hacerSonido() {
            System.out.println("Sonido de animal");
