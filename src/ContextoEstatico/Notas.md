@@ -124,5 +124,3 @@ El contexto dinámico en Java se refiere a todo lo que se resuelve en tiempo de 
 
 En resumen, el contexto estático se refiere a todo lo que se puede resolver en tiempo de compilación, como métodos y variables estáticas, así como la sobrecarga de métodos. El contexto dinámico se refiere a todo lo que se resuelve en tiempo de ejecución, como variables de instancia y la sobreescritura de métodos, lo cual permite el polimorfismo.
 ```
-
-Este formato usa encabezados, listas, y bloques de código para organizar la información y hacerla fácil de leer. Puedes guardar este contenido en un archivo con la extensión `.md` para que sea interpretado como Markdown.
