@@ -1,4 +1,4 @@
-Claro, aquí tienes la explicación sobre el contexto dinámico y estático en Java, con formato Markdown (.md):
+Explicación sobre el contexto dinámico y estático en Java, con formato Markdown (.md):
 
 ```markdown
 # Contexto Dinámico y Estático en Java
