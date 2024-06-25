@@ -14,8 +14,7 @@ El contexto estático en Java se refiere a todo lo que se resuelve en tiempo de 
    - Pertenecen a la clase en lugar de a una instancia específica.
    - Se inicializan una vez cuando la clase se carga en la memoria.
    - Son accesibles a través de la clase sin necesidad de crear una instancia de la clase.
-```
-   ```
+   ```java
    public class Ejemplo {
        static int contador = 0;
 
