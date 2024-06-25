@@ -11,7 +11,7 @@ Esto se debe a que cuando una instancia de una clase existe, también tiene acce
 
 Ejemplo:
 
-```markdown 
+```java
 public class Ejemplo {
 
     // Variable de instancia
