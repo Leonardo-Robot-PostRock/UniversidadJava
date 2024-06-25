@@ -52,7 +52,7 @@ Los métodos estáticos no pueden acceder directamente a las variables de instan
 
 Ejemplo:
 
-```
+```java
 public class Ejemplo {
 
     int contadorInstancia = 0;
