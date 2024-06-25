@@ -11,6 +11,7 @@ Esto se debe a que cuando una instancia de una clase existe, también tiene acce
 
 Ejemplo:
 
+```
 public class Ejemplo {
 
     // Variable de instancia
@@ -42,6 +43,8 @@ public class Ejemplo {
         Ejemplo.mostrarContadorEstatico();
     }
 }
+```
+
 En este ejemplo, el método incrementarContadores es un método de instancia y puede acceder tanto a contadorInstancia (una variable de instancia) como a contadorEstatico (una variable estática).
 
 Acceso desde el Contexto Estático al Contexto Dinámico
@@ -49,6 +52,7 @@ Los métodos estáticos no pueden acceder directamente a las variables de instan
 
 Ejemplo:
 
+```
 public class Ejemplo {
 
     int contadorInstancia = 0;
@@ -76,6 +80,8 @@ public class Ejemplo {
         mostrarContadorEstatico();
     }
 }
+```
+
 En este ejemplo, el método mostrarContadorEstatico no puede acceder directamente a contadorInstancia porque es una variable de instancia. Para acceder a una variable de instancia dentro de un método estático, necesitarías crear una instancia de la clase y usar esa instancia para referenciar la variable de instancia.
 
 Resumen
