@@ -11,8 +11,6 @@ Esto se debe a que cuando una instancia de una clase existe, también tiene acce
 
 Ejemplo:
 
-java
-Copy code
 public class Ejemplo {
 
     // Variable de instancia
@@ -51,8 +49,6 @@ Los métodos estáticos no pueden acceder directamente a las variables de instan
 
 Ejemplo:
 
-java
-Copy code
 public class Ejemplo {
 
     int contadorInstancia = 0;
